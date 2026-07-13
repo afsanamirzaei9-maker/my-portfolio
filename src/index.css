@@ -1,0 +1,39 @@
+/* @import "tailwindcss"; */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* ─── ۱. تعریف فونت لوکال ایران یکان ─── */
+@font-face {
+    font-family: 'IranYekan';
+    src: url('/fonts/iranyekan.woff2') format('woff2');
+    font-weight: 700; /* وزن ضخیم */
+    font-style: normal;
+  }
+  /* نکته: اگر فایل وزن ۴۰۰ (Regular) ایران یکان را هم دارید، 
+     دقیقاً مثل بالا با همین نام 'IranYekan' اما با weight: 400 اضافه کنید */
+  
+  
+  /* ─── ۲. تعریف فونت متغیر لوکال مونتسرات (Variable Font) ─── */
+  /* چون فونت شما متغیر است، بازه وزنی ۱۰۰ تا ۹۰۰ را یکجا پشتیبانی می‌کند */
+  @font-face {
+    font-family: 'Montserrat';
+    src: url('/fonts/Montserrat-VariableFont_wght.woff2') format('woff2');
+    font-weight: 100 900; /* پشتیبانی از تمام وزن‌ها به صورت داینامیک */
+    font-style: normal;
+  }
+  
+  
+  /* ─── ۳. تعریف فونت متغیر لوکال اینتر (اگر مایلید به جای مونتسرات استفاده کنید) ─── */
+  @font-face {
+    font-family: 'Inter';
+    src: url('/fonts/Inter-VariableFont_opsz,wght.woff2') format('woff2');
+    font-weight: 100 900;
+    font-style: normal;
+  }
+
+
+  
