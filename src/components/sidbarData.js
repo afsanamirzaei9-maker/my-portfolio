@@ -7,5 +7,5 @@ export const getMenuItems = (lang) => [
   { id: 'projects', label: lang === 'fa' ? 'پروژه‌ها' : 'Projects', icon: Briefcase },
   { id: 'certificates', label: lang === 'fa' ? 'گواهینامه‌ها' : 'Certificates', icon: Award },
   { id: 'contact', label: lang === 'fa' ? 'تماس' : 'Contact', icon: Mail },
-  { id: 'dashboard', label: lang === 'fa' ? 'داشبورد' : 'Dashboard', icon: LayoutDashboard, isSpecial: true },
+  // { id: 'dashboard', label: lang === 'fa' ? 'داشبورد' : 'Dashboard', icon: LayoutDashboard, isSpecial: true },
 ];
