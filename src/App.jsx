@@ -1,4 +1,5 @@
 import About from './pages/About'; 
+import Skills from './pages/Skills'; 
 import { useState } from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
 import { translations } from './locales/translations';
@@ -38,7 +39,7 @@ export default function App() {
       <Route path="/" element={<PortfolioLayout isDark={isDark} setIsDark={setIsDark} lang={lang} setLang={setLang} t={t} />}>
         <Route index element={<Hero lang={lang} t={t} isDark={isDark} />} />
         <Route path="about" element={<About lang={lang} t={t} isDark={isDark} />} />
-        <Route path="skills" element={<PlaceholderPage title={lang === 'fa' ? 'مهارت‌ها' : 'Skills'} />} />
+        <Route path="skills" element={<Skills lang={lang} t={t} isDark={isDark} />} />
         <Route path="projects" element={<PlaceholderPage title={lang === 'fa' ? 'پروژه‌ها' : 'Projects'} />} />
         <Route path="certificates" element={<PlaceholderPage title={lang === 'fa' ? 'گواهینامه‌ها' : 'Certificates'} />} />
         <Route path="contact" element={<PlaceholderPage title={lang === 'fa' ? 'تماس' : 'Contact'} />} />

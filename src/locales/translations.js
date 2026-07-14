@@ -22,6 +22,17 @@ export const translations = {
       stat3Number: "+۲",
       stat3Title: "گواهینامه معتبر"
     },
+    skills: {
+      title: "ترمینال مهارت‌ها",
+      terminalLine: "afsana@mirzaei:~$: fetch --skills --core-assets",
+      techImplementation: "توسعه و پیاده‌سازی فنی",
+      architectureLead: "معماری و هدایت تیمی",
+      statusCore: "تخصص اصلی",
+      statusStyling: "رابط کاربری",
+      statusTool: "ابزار توسعه",
+      statusLead: "مدیریت فنی",
+      statusLearning: "در حال گسترش"
+    },
     
     common: {
       theme: "تغییر پوسته",
@@ -52,7 +63,18 @@ export const translations = {
       stat3Number: "+2",
       stat3Title: "Valid Certificates"
     },
-    
+    skills: {
+      title: "Skills Terminal",
+      terminalLine: "afsana@mirzaei:~$: fetch --skills --core-assets",
+      techImplementation: "Technical Implementation",
+      architectureLead: "Architecture & Leadership",
+      statusCore: "Core Tech",
+      statusStyling: "UI Styling",
+      statusTool: "Dev Tool",
+      statusLead: "Management",
+      statusLearning: "Expanding"
+    },
+     
     common: {
       theme: "Toggle Theme",
       langName: "فارسی",
