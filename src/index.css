@@ -35,5 +35,16 @@
     font-style: normal;
   }
 
+/* کدهای قبلی فونت و تلویند شما... */
+
+/* حذف سراسری نوار اسکرول برای کلاس اختصاصی بدون از دست رفتن قابلیت اسکرول */
+.custom-scrollbar::-webkit-scrollbar {
+  display: none; /* برای مرورگرهای Chrome, Safari و Opera */
+}
+
+.custom-scrollbar {
+  -ms-overflow-style: none;  /* برای اینترنت اکسپلورر و ادج قدیمی */
+  scrollbar-width: none;  /* برای فایرفاکس */
+}
 
   

@@ -23,16 +23,23 @@ export const translations = {
       stat3Title: "گواهینامه معتبر"
     },
     skills: {
-      title: "ترمینال مهارت‌ها",
-      terminalLine: "afsana@mirzaei:~$: fetch --skills --core-assets",
-      techImplementation: "توسعه و پیاده‌سازی فنی",
-      architectureLead: "معماری و هدایت تیمی",
-      statusCore: "تخصص اصلی",
-      statusStyling: "رابط کاربری",
-      statusTool: "ابزار توسعه",
-      statusLead: "مدیریت فنی",
-      statusLearning: "در حال گسترش"
-    },
+        title: "مهارت‌های فنی و مدیریتی",
+        subtitle: "میزان تسلط من بر تکنولوژی‌ها و ابزارهای توسعه",
+        importSection: "لیست تخصص‌ها",
+        radarSection: "نمودار عقربه‌ای میزان تسلط",
+        logSection: "خلاصه تجربه کاری در این مهارت",
+        clickTip: "برای مشاهده جزئیات بیشتر، روی هر مهارت کلیک کنید.",
+        
+      // توضیحات لاگ برای مهارت‌ها
+      html_desc: "[موفق] پیاده‌سازی بیش از ۱۵ ساختار استاندارد و بهینه وب.",
+      tailwind_desc: "[موفق] پیاده‌سازی کامپوننت‌های کاملاً ریسپانسیو و تم‌های داینامیک.",
+      js_desc: "[اطلاعات] تسلط بر مفاهیم پایه و اصول منطقی برنامه نویسی.",
+      git_desc: "[موفق] مدیریت ریپازیتوری‌ها، برنچ‌ها و ریلیزهای تیمی.",
+      react_desc: "[اطلاعات] توسعه کامپوننت‌های ماژولار و مدیریت روت‌های SPA.",
+      arch_desc: "[ویژه] طراحی معماری مقیاس‌پذیر و اصول کدهای تمیز فرانت‌آند.",
+      lead_desc: "[ویژه] هدایت تیم فنی، کد ریویو و منتورینگ اعضای جدید.",
+      next_desc: "[در حال اجرا] گسترش دانش جهت حرکت به سمت Full-Stack Development."
+    },    
     
     common: {
       theme: "تغییر پوسته",
@@ -64,16 +71,23 @@ export const translations = {
       stat3Title: "Valid Certificates"
     },
     skills: {
-      title: "Skills Terminal",
-      terminalLine: "afsana@mirzaei:~$: fetch --skills --core-assets",
-      techImplementation: "Technical Implementation",
-      architectureLead: "Architecture & Leadership",
-      statusCore: "Core Tech",
-      statusStyling: "UI Styling",
-      statusTool: "Dev Tool",
-      statusLead: "Management",
-      statusLearning: "Expanding"
-    },
+      title: "Skills & Expertise",
+      subtitle: "My level of mastery over technologies and development tools",
+      importSection: "List of Expertise",
+      radarSection: "Mastery Level Gauge",
+      logSection: "Work Experience Summary",
+      clickTip: "Click on any skill to view more details.",
+      
+      // Log descriptions
+      html_desc: "[SUCCESS] Implemented 15+ semantic and optimized web structures.",
+      tailwind_desc: "[SUCCESS] Developed highly responsive UI systems and dynamic themes.",
+      js_desc: "[INFO] Mastery over vanilla core concepts and programming logic.",
+      git_desc: "[SUCCESS] Managing repositories, branches, and team release workflows.",
+      react_desc: "[INFO] Building modular component architecture and dynamic SPA routing.",
+      arch_desc: "[SPECIAL] Designing scalable architecture and clean code principles.",
+      lead_desc: "[SPECIAL] Driving technical decisions, code reviews, and team mentoring.",
+      next_desc: "[EXECUTING] Expanding full-stack knowledge and server-side ecosystems."
+    },    
      
     common: {
       theme: "Toggle Theme",
