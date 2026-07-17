@@ -43,28 +43,38 @@ export default function Hero({ lang, t, isDark }) {
     <div className={`h-full flex flex-col justify-center items-center text-center px-4 ${fontClass}`}>
       
       {/* آواتار هوشمند */}
-      <div className={`w-28 h-28 rounded-2xl mb-6 border-2 flex items-center justify-center transition-all duration-500 group relative overflow-hidden
-        ${isDark 
-          ? 'bg-slate-950/60 border-cyan-500/50 shadow-[0_0_25px_rgba(6,182,212,0.25)] hover:shadow-[0_0_35px_rgba(6,182,212,0.5)] border-dashed' 
-          : 'bg-white border-blue-600 shadow-md'}`}>
-        
-        <div className="absolute top-0 left-0 w-3 h-3 border-t-2 border-l-2 border-purple-500 z-10"></div>
-        <div className="absolute bottom-0 right-0 w-3 h-3 border-b-2 border-r-2 border-purple-500 z-10"></div>
+      <div className={`w-28 h-28 rounded-2xl mb-6 border-2 flex items-center justify-center transition-all duration-500 group relative overflow-hidden select-none
+  ${isDark 
+    ? 'bg-slate-950/60 border-cyan-500/50 shadow-[0_0_25px_rgba(6,182,212,0.25)] hover:shadow-[0_0_35px_rgba(6,182,212,0.5)] border-dashed' 
+    : 'bg-white border-blue-600 shadow-md'}`}
+>
+  
+  <div className="absolute top-0 left-0 w-3 h-3 border-t-2 border-l-2 border-purple-500 z-20"></div>
+  <div className="absolute bottom-0 right-0 w-3 h-3 border-b-2 border-r-2 border-purple-500 z-20"></div>
 
-        {avatarUrl ? (
-          <img 
-            src={avatarUrl} 
-            alt={lang === 'fa' ? t.hero.name : t.hero.nameEn} 
-            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-          />
-        ) : (
-          <UserRound 
-            size={44} 
-            className={`transition-transform duration-300 group-hover:scale-110
-              ${isDark ? 'text-cyan-400 drop-shadow-[0_0_8px_rgba(6,182,212,0.8)]' : 'text-blue-600'}`} 
-          />
-        )}
-      </div>
+  {avatarUrl ? (
+    <div className="w-full h-full relative">
+      <img 
+        src={avatarUrl} 
+        alt={lang === 'fa' ? t.hero.name : t.hero.nameEn} 
+        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105 pointer-events-none"
+        onContextMenu={(e) => e.preventDefault()}
+        onDragStart={(e) => e.preventDefault()}
+      />
+      <div 
+        className="absolute inset-0 z-10 bg-transparent" 
+        onContextMenu={(e) => e.preventDefault()}
+      />
+    </div>
+  ) : (
+    <UserRound 
+      size={44} 
+      className={`transition-transform duration-300 group-hover:scale-110 z-10
+        ${isDark ? 'text-cyan-400 drop-shadow-[0_0_8px_rgba(6,182,212,0.8)]' : 'text-blue-600'}`} 
+    />
+  )}
+</div>
+
 
       <div className="text-sm md:text-base font-bold tracking-wider text-purple-400 mb-2 uppercase">
         {t.hero.greeting}

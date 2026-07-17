@@ -111,6 +111,29 @@ export const translations = {
       eid_desc: "صفحه تعاملی ویژه ارسال پیام تبریک عید متصل به سرویس FormSpree جهت دریافت پاسخ‌ها در ایمیل.",
       eid_role: "پروژه تمرینی اتصال به API"
     },
+    certificates: {
+      title: "مدارک و گواهینامه‌ها",
+      subtitle: "مجموعه مدارک تخصصی و دستاوردهای آکادمیک من در حوزه مهندسی وب",
+      selectLabel: "انتخاب سند:",
+      issuerLabel: "مرجع صادرکننده:",
+      dateLabel: "تاریخ اعطا:",
+      btnView: "مشاهده مدرک",
+      
+      // گواهینامه اول
+      cert1_title: "گواهینامه جامع مبانی وب، جاوااسکریپت و پایتون",
+      cert1_issuer: "دانشگاه آسیای مرکزی (UCA - SPCE Kabul)",
+      cert1_date: "۲۰۲۵",
+    
+      // گواهینامه دوم
+      cert2_title: "گواهینامه تخصصی Tailwind CSS و مدیریت منبع با Git & GitHub",
+      cert2_issuer: "دانشگاه آسیای مرکزی (UCA - SPCE Kabul)",
+      cert2_date: "۲۰۲۶",
+    
+      // گواهینامه سوم
+      cert3_title: "گواهینامه توسعه پیشرفته وب‌اپلیکیشن‌ها با React.js",
+      cert3_issuer: "دانشگاه آسیای مرکزی (UCA - SPCE Kabul)",
+      cert3_date: "۲۰۲۶"
+    },
     
     common: {
       theme: "تغییر پوسته",
@@ -230,7 +253,30 @@ export const translations = {
       eid_desc: "An interactive greeting page integrated with FormSpree API for receiving user feedback directly via email.",
       eid_role: "API Integration Practice"
     },
-     
+    certificates: {
+      title: "Certificates & Credentials",
+      subtitle: "My professional certifications and academic achievements in web engineering",
+      selectLabel: "Select Credential:",
+      issuerLabel: "Issued By:",
+      dateLabel: "Date of Issuance:",
+      btnView: "View Certificate",
+      
+      // Certificate 1
+      cert1_title: "Comprehensive Web Fundamentals, JavaScript & Python",
+      cert1_issuer: "University of Central Asia (UCA - SPCE Kabul)",
+      cert1_date: "2025",
+    
+      // Certificate 2
+      cert2_title: "Advanced Tailwind CSS & Version Control with Git & GitHub",
+      cert2_issuer: "University of Central Asia (UCA - SPCE Kabul)",
+      cert2_date: "2026",
+    
+      // Certificate 3
+      cert3_title: "Advanced Web Application Development with React.js",
+      cert3_issuer: "University of Central Asia (UCA - SPCE Kabul)",
+      cert3_date: "2026"
+    },
+    
     common: {
       theme: "Toggle Theme",
       langName: "فارسی",
