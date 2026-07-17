@@ -1,8 +1,9 @@
+import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import { UserRound } from 'lucide-react';
 
 export default function Hero({ lang, t, isDark }) {
-  const [avatarUrl, setAvatarUrl] = useState(null); 
+  const [avatarUrl, setAvatarUrl] = useState("https://media.gettyimages.com/id/2012746910/photo/professional-it-worker-working-late-coding-and-machine-learning-working-with-ai.jpg?s=612x612&w=0&k=20&c=pzIo43asgvFKZ1tpC3pWTQiK8FRTByk3YVgD4-rxIyQ="); 
 
   const roles = lang === 'fa' 
     ? ["توسعه‌دهنده ری‌اکت", "طراح رابط کاربری (UI/UX)", "متخصص فرانت‌آند"] 
@@ -92,17 +93,25 @@ export default function Hero({ lang, t, isDark }) {
       </p>
 
       <div className="flex flex-row gap-4 justify-center w-full sm:w-auto">
-        <button className={`px-6 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 text-white text-sm font-bold rounded-xl transition-all transform hover:-translate-y-0.5 active:translate-y-0
+        <Link 
+          to="/projects"
+          className={`px-6 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 text-white text-sm font-bold rounded-xl transition-all transform hover:-translate-y-0.5 active:translate-y-0 inline-block text-center
+            ${isDark ? 'shadow-[0_4px_20px_rgba(6,182,212,0.25)] hover:shadow-[0_4px_25px_rgba(6,182,212,0.4)]' : 'shadow-lg'}`}
+        >
+          {t.hero.projectBtn}
+        </Link>
+
+        {/* <button className={`px-6 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 text-white text-sm font-bold rounded-xl transition-all transform hover:-translate-y-0.5 active:translate-y-0
           ${isDark ? 'shadow-[0_4px_20px_rgba(6,182,212,0.25)] hover:shadow-[0_4px_25px_rgba(6,182,212,0.4)]' : 'shadow-lg'}`}>
           {t.hero.projectBtn}
-        </button>
+        </button> */}
         
-        <button className={`px-6 py-3 text-sm font-bold rounded-xl border transition-all transform hover:-translate-y-0.5 active:translate-y-0
+        {/* <button className={`px-6 py-3 text-sm font-bold rounded-xl border transition-all transform hover:-translate-y-0.5 active:translate-y-0
           ${isDark 
             ? 'bg-slate-900/40 border-slate-800 text-slate-300 hover:bg-slate-800/80 hover:border-slate-700' 
             : 'bg-white border-slate-300 text-slate-700 hover:bg-slate-50'}`}>
           {t.hero.cvBtn}
-        </button>
+        </button> */}
       </div>
 
     </div>

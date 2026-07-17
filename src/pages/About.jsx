@@ -10,7 +10,7 @@ export default function About({ lang, t, isDark }) {
   ];
 
   return (
-    <div className={`h-full flex flex-col justify-center py-2 md:py-4 ${fontClass}`}>
+    <div className={`h-full flex flex-col justify-center overflow-auto py-2 md:py-4 ${fontClass}`}>
       
       {/* عنوان اصلی صفحه */}
       <h2 className="text-2xl md:text-3xl font-black mb-6 md:mb-8 bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 bg-clip-text text-transparent w-fit">
@@ -31,7 +31,7 @@ export default function About({ lang, t, isDark }) {
         </div>
 
         {/* ستون کارت‌های آمار عمودی منظم */}
-        <div className="md:col-span-5 flex flex-col gap-4">
+        <div className="md:col-span-5 flex flex-col gap-4 ">
           {stats.map((stat, index) => {
             const Icon = stat.icon;
             return (

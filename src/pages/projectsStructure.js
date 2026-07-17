@@ -1,3 +1,15 @@
+import btbImg from '../assets/images/btb.webp';
+import astronomyImg from '../assets/images/astronomy.webp';
+import banfesImg from '../assets/images/banfes.webp';
+import dornaImg from '../assets/images/dorna.webp';
+import arefiImg from '../assets/images/arefi.webp';
+import clockImg from '../assets/images/clock.webp';
+import tarteelImg from '../assets/images/tarteel.webp';
+import menuImg from '../assets/images/menu.webp';
+// import amaImg from '../assets/images/ama.webp';
+import teamImg from '../assets/images/uni.webp';
+import eidImg from '../assets/images/eid.webp';
+
 export const getProjectsStructure = (t) => [
   // ۱. دسته‌بندی پروژه‌های مدیریت‌شده (managed)
   { 
@@ -9,7 +21,7 @@ export const getProjectsStructure = (t) => [
     tech: ["HTML5", "CSS3", "JS"], 
     github: "https://github.com/BTB-Team/BTB-Website.git", 
     demo: "https://btb-team.github.io/BTB-Website/",
-    image: "projects/02.jpg" // 👈 نمونه آدرس عکس در پوشه public/projects/
+    image: btbImg // 👈 نمونه آدرس عکس در پوشه public/projects/
   },
   { 
     id: "astronomy", 
@@ -20,7 +32,7 @@ export const getProjectsStructure = (t) => [
     tech: ["React", "Tailwind 4", "Vite 6"], 
     github: "https://github.com/BTB-Team/Astronomy.git", 
     demo: "https://btb-team.github.io/Astronomy/", 
-    image: "/projects/astronomy.png" // 👈 نمونه آدرس عکس
+    image: astronomyImg // 👈 نمونه آدرس عکس
   },
   { 
     id: "delaram", 
@@ -42,7 +54,7 @@ export const getProjectsStructure = (t) => [
     tech: ["React", "Tailwind 3", "Vite 5"], 
     github: "https://github.com/BTB-Team/Dorna-React.git", 
     demo: null,
-    image: null 
+    image: dornaImg
   },
   { 
     id: "banfes blog", 
@@ -53,7 +65,7 @@ export const getProjectsStructure = (t) => [
     tech: ["Architecture", "Docs"], 
     github: null, 
     demo: "https://banfes.blog",
-    image: null 
+    image: banfesImg 
   },
   
   // ۲. دسته‌بندی پروژه‌های اختصاصی (exclusive)
@@ -77,7 +89,7 @@ export const getProjectsStructure = (t) => [
     tech: ["HTML5", "CSS3", "JS", "AOS"], 
     github:"https://github.com/afsanamirzaei9-maker/AliArifi.git",  
     demo: "https://afsanamirzaei9-maker.github.io/AliArifi/",
-    image: null 
+    image: arefiImg 
   },
   
   // ۳. دسته‌بندی پروژه‌های تمرینی (practice)
@@ -90,7 +102,7 @@ export const getProjectsStructure = (t) => [
     tech: ["HTML5", "CSS3", "JS"], 
     github: "https://github.com/afsanamirzaei9-maker/ClockProject.git", 
     demo: "https://digital-clock2025-9-3.netlify.app/",
-    image: null 
+    image: clockImg 
   },
   { 
     id: "quran", 
@@ -101,7 +113,7 @@ export const getProjectsStructure = (t) => [
     tech: ["HTML5", "Bootstrap", "JS"], 
     github: null, 
     demo: "https://tarteeluidesign.netlify.app/",
-    image: null 
+    image: tarteelImg 
   },
   { 
     id: "menu", 
@@ -112,7 +124,7 @@ export const getProjectsStructure = (t) => [
     tech: ["HTML5", "TailwindCss", "Git & GitHub"], 
     github: "https://github.com/afsanamirzaei9-maker/Digital-Menu.git", 
     demo: "https://afsanamirzaei9-maker.github.io/Digital-Menu/",
-    image: null 
+    image: menuImg 
   },
   { 
     id: "ama", 
@@ -145,7 +157,7 @@ export const getProjectsStructure = (t) => [
     tech: ["HTML5", "Bootstrap", "JS"], 
     github: null, 
     demo: "https://uni-bootstrap-project.netlify.app/",
-    image: null 
+    image: teamImg
   },
   { 
     id: "Eid", 
@@ -156,6 +168,6 @@ export const getProjectsStructure = (t) => [
     tech: ["FormSpree", "JS"], 
     github: "https://github.com/afsanamirzaei9-maker/Uni-Eid-Message.git", 
     demo: "https://afsanamirzaei9-maker.github.io/Uni-Eid-Message/",
-    image: null 
+    image: eidImg 
   }
 ];

@@ -9,7 +9,7 @@
 /* ─── ۱. تعریف فونت لوکال ایران یکان ─── */
 @font-face {
     font-family: 'IranYekan';
-    src: url('/fonts/iranyekan.woff2') format('woff2');
+    src: url('/fonts/Qs_Iranyekan.woff2') format('woff2');
     font-weight: 700; /* وزن ضخیم */
     font-style: normal;
   }
