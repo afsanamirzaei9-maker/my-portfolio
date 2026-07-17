@@ -1,4 +1,5 @@
 import About from './pages/About'; 
+import Projects from './pages/Projects';
 import Skills from './pages/Skills'; 
 import { useState } from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
@@ -40,7 +41,7 @@ export default function App() {
         <Route index element={<Hero lang={lang} t={t} isDark={isDark} />} />
         <Route path="about" element={<About lang={lang} t={t} isDark={isDark} />} />
         <Route path="skills" element={<Skills lang={lang} t={t} isDark={isDark} />} />
-        <Route path="projects" element={<PlaceholderPage title={lang === 'fa' ? 'پروژه‌ها' : 'Projects'} />} />
+        <Route path="projects" element={<Projects lang={lang} t={t} isDark={isDark} />} />
         <Route path="certificates" element={<PlaceholderPage title={lang === 'fa' ? 'گواهینامه‌ها' : 'Certificates'} />} />
         <Route path="contact" element={<PlaceholderPage title={lang === 'fa' ? 'تماس' : 'Contact'} />} />
       </Route>

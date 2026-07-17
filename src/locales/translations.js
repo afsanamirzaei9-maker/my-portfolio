@@ -40,6 +40,77 @@ export const translations = {
       lead_desc: "[ویژه] هدایت تیم فنی، کد ریویو و منتورینگ اعضای جدید.",
       next_desc: "[در حال اجرا] گسترش دانش جهت حرکت به سمت Full-Stack Development."
     },    
+    projects: {
+      title: "نمایشگاه پروژه‌ها",
+      subtitle: "مجموعه‌ای از فعالیت‌های تجاری، مدیریت تیم و تجربه‌های آزمایشگاهی من",
+      filterAll: "همه پروژه‌ها",
+      filterManaged: "مدیریت و رهبری تیم",
+      filterExclusive: "طراحی و توسعه اختصاصی",
+      filterPractice: "پروژه‌های تمرینی و Labs",
+      roleLabel: "نقش من:",
+      techLabel: "تکنولوژی‌ها:",
+      btnLive: "پیش‌نمایش آنلاین",
+      btnCode: "سورس گیت‌هاب",
+      noDemo: "دمو به‌زودی",
+      
+      // دیتای پروژه‌های واقعی (مدیریت و اختصاصی)
+      btb_title: "وب‌سایت رسمی شرکت BTB",
+      btb_desc: "توسعه وب‌سایت رسمی شرکت، طراحی بیس و دیزاین سیستم اصلی به همراه مدیریت و فیکس باگ‌های فرانت‌آند.",
+      btb_role: "مدیریت پروژه و معمار فرانت‌آند",
+
+      astronomy_title: "انجمن نجوم افغانستان",
+      astronomy_desc: "وب‌سایت جامع معرفی انجمن، سیستم آموزش و ثبت‌نام آنلاین دانش‌آموزان و فروشگاه دیجیتال کتاب.",
+      astronomy_role: "مدیریت پروژه و منتورینگ فنی",
+
+      delaram_title: "آپدیت وب‌سایت موسسه دلارام",
+      delaram_desc: "بازطراحی و بروزرسانی ساختار وب‌سایت قدیمی موسسه خیریه دلارام جهت بهبود ارتباط با کاربران.",
+      delaram_role: "معمار دیزاین سیستم و منتور تیم",
+
+      dorna_title: "وب‌سایت شرکت درنا میدیا",
+      dorna_desc: "پروژه در حال توسعه معرفی شرکت و راه‌اندازی بستر ارتباطی مدرن با مشتریان و متقاضیان.",
+      dorna_role: "مدیریت پروژه و طراحی بیس (Base)",
+
+      luxura_title: "کاتالوگ فروش آنلاین لوکسورا",
+      luxura_desc: "پروژه در حال ساخت کاتالوگ مدرن فشن و مد. طراحی صفر تا صد ساختار و دیزاین سیستم اصلی.",
+      luxura_role: "طراح رابط کاربری و منتور فرانت‌آند",
+
+      banfes_title: "وب‌سایت خبری بنفش (Banfes)",
+      banfes_desc: "طراحی مجدد ساختار، معماری کد و مستندسازی فنی پروژه‌ ویژه نشر مقالات دختران نویسنده افغان.",
+      banfes_role: "معمار ساختار و نویسنده داکیومنت",
+
+      arifi_title: "وبلاگ تخصصی علی عارفی",
+      arifi_desc: "طراحی و توسعه فرانت‌آند صفر تا صد وب‌سایت شخصی و وبلاگ رسمی مدیریت مجتمع آموزشی.",
+      arifi_role: "توسعه‌دهنده فرانت‌آند اختصاصی",
+
+      // دیتای پروژه‌های تمرینی
+      clock_title: "ساعت دیجیتال پیشرفته",
+      clock_desc: "صفحه پویا برای نمایش زمان با پشتیبانی از فرمت‌های ۱۲ و ۲۴ ساعته و سوییچ آنی.",
+      clock_role: "پروژه تمرینی JavaScript",
+
+      quran_title: "اپلیکیشن قرآنی ترتیل",
+      quran_desc: "پلتفرم پخش آنلاین و دانلود فایل‌های صوتی قرائت قاریان برجسته جهان اسلام.",
+      quran_role: "پروژه تمرینی UI/UX و فرانت‌آند",
+
+      menu_title: "منوی دیجیتال رستوران",
+      menu_desc: "اولین پروژه تیمی با تمرکز بر یادگیری عمیق گیت، گیت‌هاب و سیستم دسته‌بندی و ثبت سفارش.",
+      menu_role: "توسعه‌دهنده فرانت‌آند تیمی",
+
+      ama_title: "آنلاین‌شاپ آما برند",
+      ama_desc: "فروشگاه اینترنتی ویژه معرفی و ارائه محصولات و صنایع دستی سنتی افغانستان همراه با سبد خرید.",
+      ama_role: "پروژه تمرینی JavaScript",
+
+      edu_title: "لندینگ پیج مرکز آموزشی",
+      edu_desc: "اولین پروژه تمرینی ویژه معرفی یک مرکز آموزشی فعال در حوزه تکنولوژی و فرانت‌آند.",
+      edu_role: "تمرین طراحی کامپوننت با Bootstrap",
+
+      team_title: "لندینگ پیج معرفی تیم وب",
+      team_desc: "صفحه تک‌صفحه‌ای شیک جهت معرفی اعضا، تخصص‌ها و خدمات یک تیم توسعه نرم‌افزار.",
+      team_role: "تمرین پیاده‌سازی با Bootstrap",
+
+      eid_title: "سیستم تبریک عید دانشگاه",
+      eid_desc: "صفحه تعاملی ویژه ارسال پیام تبریک عید متصل به سرویس FormSpree جهت دریافت پاسخ‌ها در ایمیل.",
+      eid_role: "پروژه تمرینی اتصال به API"
+    },
     
     common: {
       theme: "تغییر پوسته",
@@ -88,6 +159,77 @@ export const translations = {
       lead_desc: "[SPECIAL] Driving technical decisions, code reviews, and team mentoring.",
       next_desc: "[EXECUTING] Expanding full-stack knowledge and server-side ecosystems."
     },    
+    projects: {
+      title: "Project Showcase",
+      subtitle: "A curated collection of my commercial projects, team leadership, and lab experiments",
+      filterAll: "All Projects",
+      filterManaged: "Management & Lead",
+      filterExclusive: "Exclusive Design",
+      filterPractice: "Practice & Labs",
+      roleLabel: "My Role:",
+      techLabel: "Tech Stack:",
+      btnLive: "Live Demo",
+      btnCode: "GitHub Source",
+      noDemo: "Demo Coming Soon",
+      
+      // Real Projects Data (Management & Exclusive)
+      btb_title: "BTB Official Website",
+      btb_desc: "Developed the company's official web presence, built the core design system, and managed front-end bug fixes.",
+      btb_role: "Project Manager & Frontend Architect",
+    
+      astronomy_title: "Afghanistan Astronomy Society",
+      astronomy_desc: "A comprehensive platform featuring society introduction, online student registration/education, and a book e-shop.",
+      astronomy_role: "Project Manager & Tech Mentor",
+    
+      delaram_title: "Delaram Foundation Website Update",
+      delaram_desc: "Redesigned and modernized the charity's legacy web application to improve user engagement and connectivity.",
+      delaram_role: "Design System Architect & Team Mentor",
+    
+      dorna_title: "Dorna Media Corporate Site",
+      dorna_desc: "An ongoing project establishing a modern digital platform for corporate introduction and client interaction.",
+      dorna_role: "Project Manager & Base Code Designer",
+    
+      luxura_title: "Luxura Online Sales Catalog",
+      luxura_desc: "An ongoing modern fashion catalog for clothing and cosmetics. Authored the entire visual and code architecture.",
+      luxura_role: "UI Designer & Frontend Mentor",
+    
+      banfes_title: "Banfes News Platform",
+      banfes_desc: "Structured the frontend architecture and authored engineering documentation for an Afghan female writers' blog.",
+      banfes_role: "Structural Architect & Tech Writer",
+    
+      arifi_title: "Ali Arifi Personal Blog",
+      arifi_desc: "Designed and developed the complete frontend layout for a school principal's personal article publishing blog.",
+      arifi_role: "Solo Frontend Developer",
+    
+      // Practice Projects Data
+      clock_title: "Advanced Digital Clock",
+      clock_desc: "A dynamic web page for real-time clock presentation with 12/24-hour format instant switching.",
+      clock_role: "JavaScript Lab Project",
+    
+      quran_title: "Tarteel Quran Web App",
+      quran_desc: "An audio streaming and download interface presenting recitations from world-renowned Quran reciters.",
+      quran_role: "UI/UX & Frontend Lab Project",
+    
+      menu_title: "Digital Restaurant Menu",
+      menu_desc: "First collaborative team project focused on mastering Git workflows, categorization, and cart orders.",
+      menu_role: "Team Frontend Developer",
+    
+      ama_title: "Ama Brand E-Commerce",
+      ama_desc: "An online store catalog showcasing traditional Afghan cultural clothing and handicrafts with a shopping cart.",
+      ama_role: "JavaScript Lab Project",
+    
+      edu_title: "Educational Center Landing Page",
+      edu_desc: "Inaugural training project showcasing a modern institute active in tech education and web development.",
+      edu_role: "Bootstrap Component Practice",
+    
+      team_title: "Web Dev Team Landing Page",
+      team_desc: "A sleek single-page interface showcasing members, expertise, and services of a software squad.",
+      team_role: "Bootstrap Layout Practice",
+    
+      eid_title: "University Eid Greeting System",
+      eid_desc: "An interactive greeting page integrated with FormSpree API for receiving user feedback directly via email.",
+      eid_role: "API Integration Practice"
+    },
      
     common: {
       theme: "Toggle Theme",
@@ -96,7 +238,3 @@ export const translations = {
     }
   }
 };
-
-
-
-
