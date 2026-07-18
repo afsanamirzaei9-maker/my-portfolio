@@ -1,8 +1,13 @@
+
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: 'my-portfolio'
+  // نام دقیق مخزن گیت‌هاب بین دو اسلش
+  base: '/my-portfolio/', 
+  build: {
+    // تغییر نام پوشه خروجی از dist به docs
+    outDir: 'docs', 
+  }
 })
