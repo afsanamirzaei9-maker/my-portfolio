@@ -134,6 +134,18 @@ export const translations = {
       cert3_issuer: "دانشگاه آسیای مرکزی (UCA - SPCE Kabul)",
       cert3_date: "۲۰۲۶"
     },
+    contact: {
+      title: "ارتباط با من",
+      subtitle: "راه‌های ارتباطی مستقیم و شبکه‌های اجتماعی برای همکاری در پروژه‌ها",
+      copied: "کپی شد!",
+      clickToCopy: "کلیک برای کپی",
+      email: "ایمیل",
+      phone: "شماره تماس",
+      linkedin: "لینکدین",
+      instagram: "اینستاگرام",
+      whatsapp: "واتساپ",
+      github: "گیت‌هاب"
+    },
     
     common: {
       theme: "تغییر پوسته",
@@ -275,6 +287,18 @@ export const translations = {
       cert3_title: "Advanced Web Application Development with React.js",
       cert3_issuer: "University of Central Asia (UCA - SPCE Kabul)",
       cert3_date: "2026"
+    },
+    contact: {
+      title: "Contact Me",
+      subtitle: "Direct communication channels and social networks for collaboration",
+      copied: "Copied!",
+      clickToCopy: "Click to copy",
+      email: "Email",
+      phone: "Phone",
+      linkedin: "LinkedIn",
+      instagram: "Instagram",
+      whatsapp: "WhatsApp",
+      github: "GitHub"
     },
     
     common: {

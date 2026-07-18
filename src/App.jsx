@@ -2,6 +2,7 @@ import About from './pages/About';
 import Projects from './pages/Projects';
 import Skills from './pages/Skills'; 
 import Certificates from './pages/Certificates';
+import Contact from './pages/Contact';
 import { useState } from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
 import { translations } from './locales/translations';
@@ -44,7 +45,7 @@ export default function App() {
         <Route path="skills" element={<Skills lang={lang} t={t} isDark={isDark} />} />
         <Route path="projects" element={<Projects lang={lang} t={t} isDark={isDark} />} />
         <Route path="certificates" element={<Certificates lang={lang} t={t} isDark={isDark} />} />
-        <Route path="contact" element={<PlaceholderPage title={lang === 'fa' ? 'تماس' : 'Contact'} />} />
+        <Route path="contact" element={<Contact lang={lang} t={t} isDark={isDark} />} />
       </Route>
 
       {/* ─── روت مدیریت و لاگین ─── */}
