@@ -6,9 +6,9 @@ export const getProjectsStructure = (t) => [
     desc: t.projects.btb_desc, 
     role: t.projects.btb_role, 
     category: "managed", 
-    tech: ["HTML5", "CSS3", "JavaScript"], 
-    github: "https://github.com", 
-    demo: "https://github.io",
+    tech: ["HTML5", "CSS3", "JS"], 
+    github: "https://github.com/BTB-Team/BTB-Website.git", 
+    demo: "https://btb-team.github.io/BTB-Website/",
     image: "projects/02.jpg" // 👈 نمونه آدرس عکس در پوشه public/projects/
   },
   { 
@@ -18,8 +18,8 @@ export const getProjectsStructure = (t) => [
     role: t.projects.astronomy_role, 
     category: "managed", 
     tech: ["React", "Tailwind 4", "Vite 6"], 
-    github: "https://github.com", 
-    demo: "https://github.io", 
+    github: "https://github.com/BTB-Team/Astronomy.git", 
+    demo: "https://btb-team.github.io/Astronomy/", 
     image: "/projects/astronomy.png" // 👈 نمونه آدرس عکس
   },
   { 
@@ -29,7 +29,7 @@ export const getProjectsStructure = (t) => [
     role: t.projects.delaram_role, 
     category: "managed", 
     tech: ["HTML5", "CSS3", "JavaScript"], 
-    github: "https://github.com", 
+    github: "https://github.com/BTB-Team/Delaram-Foundation-.git", 
     demo: null,
     image: null 
   },
@@ -40,19 +40,19 @@ export const getProjectsStructure = (t) => [
     role: t.projects.dorna_role, 
     category: "managed", 
     tech: ["React", "Tailwind 3", "Vite 5"], 
-    github: "https://github.com", 
+    github: "https://github.com/BTB-Team/Dorna-React.git", 
     demo: null,
     image: null 
   },
   { 
-    id: "banfes", 
+    id: "banfes blog", 
     title: t.projects.banfes_title, 
     desc: t.projects.banfes_desc, 
     role: t.projects.banfes_role, 
     category: "managed", 
     tech: ["Architecture", "Docs"], 
     github: null, 
-    demo: "https://banfes.com",
+    demo: "https://banfes.blog",
     image: null 
   },
   
@@ -64,7 +64,7 @@ export const getProjectsStructure = (t) => [
     role: t.projects.luxura_role, 
     category: "exclusive", 
     tech: ["HTML5", "CSS3", "JavaScript"], 
-    github: "https://github.com", 
+    github: "https://github.com/BTB-Team/OnlineShope.git", 
     demo: null,
     image: null 
   },
@@ -75,8 +75,8 @@ export const getProjectsStructure = (t) => [
     role: t.projects.arifi_role, 
     category: "exclusive", 
     tech: ["HTML5", "CSS3", "JS", "AOS"], 
-    github: "https://github.io", 
-    demo: null,
+    github:"https://github.com/afsanamirzaei9-maker/AliArifi.git",  
+    demo: "https://afsanamirzaei9-maker.github.io/AliArifi/",
     image: null 
   },
   
@@ -87,9 +87,9 @@ export const getProjectsStructure = (t) => [
     desc: t.projects.clock_desc, 
     role: t.projects.clock_role, 
     category: "practice", 
-    tech: ["HTML5", "CSS3", "JavaScript"], 
-    github: "https://github.com", 
-    demo: "https://netlify.app",
+    tech: ["HTML5", "CSS3", "JS"], 
+    github: "https://github.com/afsanamirzaei9-maker/ClockProject.git", 
+    demo: "https://digital-clock2025-9-3.netlify.app/",
     image: null 
   },
   { 
@@ -100,7 +100,7 @@ export const getProjectsStructure = (t) => [
     category: "practice", 
     tech: ["HTML5", "Bootstrap", "JS"], 
     github: null, 
-    demo: "https://netlify.app",
+    demo: "https://tarteeluidesign.netlify.app/",
     image: null 
   },
   { 
@@ -109,9 +109,9 @@ export const getProjectsStructure = (t) => [
     desc: t.projects.menu_desc, 
     role: t.projects.menu_role, 
     category: "practice", 
-    tech: ["HTML5", "CSS3", "Git & GitHub"], 
-    github: "https://github.com", 
-    demo: "https://github.io",
+    tech: ["HTML5", "TailwindCss", "Git & GitHub"], 
+    github: "https://github.com/afsanamirzaei9-maker/Digital-Menu.git", 
+    demo: "https://afsanamirzaei9-maker.github.io/Digital-Menu/",
     image: null 
   },
   { 
@@ -122,7 +122,7 @@ export const getProjectsStructure = (t) => [
     category: "practice", 
     tech: ["HTML5", "CSS3", "JavaScript"], 
     github: null, 
-    demo: "https://netlify.app",
+    demo: "https://amaupdate.netlify.app/",
     image: null 
   },
   { 
@@ -133,7 +133,7 @@ export const getProjectsStructure = (t) => [
     category: "practice", 
     tech: ["HTML5", "Bootstrap", "JS"], 
     github: null, 
-    demo: "https://netlify.app",
+    demo: "https://btbt-landing-page.netlify.app/",
     image: null 
   },
   { 
@@ -144,18 +144,18 @@ export const getProjectsStructure = (t) => [
     category: "practice", 
     tech: ["HTML5", "Bootstrap", "JS"], 
     github: null, 
-    demo: "https://netlify.app",
+    demo: "https://uni-bootstrap-project.netlify.app/",
     image: null 
   },
   { 
-    id: "eid", 
+    id: "Eid", 
     title: t.projects.eid_title, 
     desc: t.projects.eid_desc, 
     role: t.projects.eid_role, 
     category: "practice", 
-    tech: ["FormSpree", "API Integration"], 
-    github: "https://github.com", 
-    demo: "https://github.io",
+    tech: ["FormSpree", "JS"], 
+    github: "https://github.com/afsanamirzaei9-maker/Uni-Eid-Message.git", 
+    demo: "https://afsanamirzaei9-maker.github.io/Uni-Eid-Message/",
     image: null 
   }
 ];
